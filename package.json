@@ -1,0 +1,22 @@
+{
+  "name": "natour",
+  "version": "1.0.0",
+  "description": "Training Example for CSS study",
+  "main": "index.html",
+  "scripts": {
+    "node:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acid0od/Natour.git"
+  },
+  "author": "Alexander Evstratyev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acid0od/Natour/issues"
+  },
+  "homepage": "https://github.com/acid0od/Natour#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

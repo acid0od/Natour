@@ -1,6 +1,10 @@
 # Compiled class file
 *.class
 
+node_modules
+.idea
+*.iml
+
 # Log file
 *.log
 
