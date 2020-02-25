@@ -64,12 +64,30 @@ body {
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 1.75rem;
-    animation: moveInRight 1s ease-out; }
+    animation: moveInRight 1s ease-out;
+  }
 
 .heading-secondary {
   font-size: 3.5rem;
   text-transform: uppercase;
-  font-weight: 700; }
+  font-weight: 700;
+}
+
+.u-center-text {
+  text-align: center;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8em;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4em;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 2em;
+}
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -78,7 +96,8 @@ body {
   display: inline-block;
   border-radius: 10rem;
   transition: all .2s;
-  position: relative; }
+  position: relative;
+}
 
 .btn:hover {
   transform: translateY(-0.3rem);
