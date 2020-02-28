@@ -4,7 +4,7 @@
   "description": "Training Example for CSS study",
   "main": "index.html",
   "scripts": {
-    "node:sass": "node-sass sass/main.scss css/style.css"
+    "node:sass": "node-sass -w sass/main.scss css/style.css --output-style compressed"
   },
   "repository": {
     "type": "git",
